@@ -7,14 +7,12 @@ module.exports = {
 		getValidator: require('./utils/validationHelper.js'),
 		validationMethods: require('./utils/validationMethods.js'),
 		base64UrlEncoder: require('./utils/base64UrlEncoder.js'),
-		queueWriter: require('./utils/queueWriter.js'),
 		functionHelper: require('./utils/functionHelper.js'),
 		mtypeIdLookup: require('./utils/mtypeIdLookup.js'),
 		loggingHelper: require('./utils/loggingHelper.js')
 	},
 	mtypes: require('./data/mtypes.js'),
 	testHelpers: {
-		mockWorkQueueWriter: require('./testHelpers/mockWorkQueueWriter.js'),
 		commandQueueStub: require('./testHelpers/commandQueueStub.js')
 	}
 };

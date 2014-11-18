@@ -9,7 +9,8 @@ module.exports = {
 		base64UrlEncoder: require('./utils/base64UrlEncoder.js'),
 		functionHelper: require('./utils/functionHelper.js'),
 		mtypeIdLookup: require('./utils/mtypeIdLookup.js'),
-		loggingHelper: require('./utils/loggingHelper.js')
+		loggingHelper: require('./utils/loggingHelper.js'),
+		encryptPassword: require('./utils/encryptPassword.js')
 	},
 	mtypes: require('./data/mtypes.js'),
 	testHelpers: {

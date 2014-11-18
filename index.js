@@ -10,7 +10,8 @@ module.exports = {
 		functionHelper: require('./utils/functionHelper.js'),
 		mtypeIdLookup: require('./utils/mtypeIdLookup.js'),
 		loggingHelper: require('./utils/loggingHelper.js'),
-		encryptPassword: require('./utils/encryptPassword.js')
+		encryptPassword: require('./utils/encryptPassword.js'),
+		dotNetEncryptionHelper: require('./utils/dotNetEncryptionHelper.js')
 	},
 	mtypes: require('./data/mtypes.js'),
 	testHelpers: {

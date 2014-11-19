@@ -11,7 +11,8 @@ module.exports = {
 		mtypeIdLookup: require('./utils/mtypeIdLookup.js'),
 		loggingHelper: require('./utils/loggingHelper.js'),
 		encryptPassword: require('./utils/encryptPassword.js'),
-		dotNetEncryptionHelper: require('./utils/dotNetEncryptionHelper.js')
+		dotNetEncryptionHelper: require('./utils/dotNetEncryptionHelper.js'),
+		getFilePathsRecursive: require('./utils/getFilePathsRecursive.js')
 	},
 	mtypes: require('./data/mtypes.js'),
 	testHelpers: {

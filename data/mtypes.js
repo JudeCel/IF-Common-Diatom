@@ -10,6 +10,14 @@ var mtypes = {
         coFacilitator: 3,
         observer: 4
     },
+	userStatus: {
+		none: 0,
+		active: 109000200,
+		archived: 109000700,
+		inactive: 109000400,
+		loggedIn: 109000300,
+		visitor: 109000100
+	},
     resourceType: {
         participant: 1,
         facilitator: 2,

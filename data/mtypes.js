@@ -51,6 +51,12 @@ var mtypes = {
 		none: 0,
 		invalid: 123000200,
 		valid: 123000100
+	},
+	billingIntervalType: {
+		none: 0,
+		annual: 165000200,
+		annualInvoiced: 165000300,
+		monthly: 165000100
 	}
 }
 

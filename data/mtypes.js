@@ -39,7 +39,19 @@ var mtypes = {
 		facilitator: 2,
 		observer: 3,
 		participant: 4
-    }
+    },
+	accountStatus: {
+		none: 0,
+		active: 127000100,
+		cancelled: 127000700,
+		nonPayment: 127000200,
+		trialExpired: 127000500
+	},
+	sessStatus: {
+		none: 0,
+		invalid: 123000200,
+		valid: 123000100
+	}
 }
 
 module.exports = mtypes;

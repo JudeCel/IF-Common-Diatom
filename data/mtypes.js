@@ -65,6 +65,11 @@ var mtypes = {
 		annual: 165000200,
 		annualInvoiced: 165000300,
 		monthly: 165000100
+	},
+	sessionState: {
+		inprogress: 0,
+		open: 1,
+		closed: 2
 	}
 }
 

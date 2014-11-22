@@ -60,6 +60,10 @@ var mtypes = {
 		invalid: 123000200,
 		valid: 123000100
 	},
+	sessType: {
+		standard: 124000100,
+		anonymous: 124000300
+	},
 	billingIntervalType: {
 		none: 0,
 		annual: 165000200,

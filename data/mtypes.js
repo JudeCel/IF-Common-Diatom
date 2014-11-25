@@ -18,19 +18,26 @@ var mtypes = {
 		loggedIn: 109000300,
 		visitor: 109000100
 	},
-    resourceType: {
-        participant: 1,
-        facilitator: 2,
-        coFacilitator: 3,
-        observer: 4,
-        image: 16,
-        video: 17,
-        audio: 18,
-        report: 19,
-        vote: 20,
-        collage: 21,
-        tmp: 99
-    },
+//    resourceType: {
+//        participant: 1,
+//        facilitator: 2,
+//        coFacilitator: 3,
+//        observer: 4,
+//        image: 16,
+//        video: 17,
+//        audio: 18,
+//        report: 19,
+//        vote: 20,
+//        collage: 21,
+//        tmp: 99
+//    },
+	resourceType: {
+		image: 103000100,
+		brandLogo: 103000200,
+		video: 103000300,
+		audio: 103000400,
+		document: 103000500
+	},
     topicStatus: {
         active: 1,
         closed: 2

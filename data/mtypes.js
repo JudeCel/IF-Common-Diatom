@@ -70,7 +70,7 @@ var mtypes = {
 		annualInvoiced: 165000300,
 		monthly: 165000100
 	},
-	sessionState: {
+	sessionStatus: {
 		pending: 0,
 		open: 166000100,
 		closed: 166000200

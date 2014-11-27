@@ -1,86 +1,67 @@
 var mtypes = {
-    statusLookup: {
+    sessStatus: {
         none: 0,
-        active: 1,
-        closed: 2
+        invalid: 100000100,
+        valid: 100000200
     },
-    userType: {
-        globalAdministrator: 1,
-        facilitator: 2,
-        coFacilitator: 3,
-        observer: 4
-    },
-	userStatus: {
-		none: 0,
-		active: 109000200,
-		archived: 109000700,
-		inactive: 109000400,
-		loggedIn: 109000300,
-		visitor: 109000100
-	},
-//    resourceType: {
-//        participant: 1,
-//        facilitator: 2,
-//        coFacilitator: 3,
-//        observer: 4,
-//        image: 16,
-//        video: 17,
-//        audio: 18,
-//        report: 19,
-//        vote: 20,
-//        collage: 21,
-//        tmp: 99
-//    },
-	resourceType: {
-		image: 103000100,
-		brandLogo: 103000200,
-		video: 103000300,
-		audio: 103000400,
-		document: 103000500
-	},
-    topicStatus: {
-        active: 1,
-        closed: 2
-    },
-    reportType: {
-        chat: "chat",
-        chat_stars: "chat_stars",
-        whiteboard: "whiteboard",
-        vote: "vote",
-        stats: "stats"
-    },
-	userPermissions: {
-		accountManager: 1,
-		facilitator: 2,
-		observer: 3,
-		participant: 4
+    sessType: {
+	    none: 0,
+	    standard: 101000100,
+	    anonymous: 101000200
     },
 	accountStatus: {
 		none: 0,
-		active: 127000100,
-		cancelled: 127000700,
-		nonPayment: 127000200,
-		trialExpired: 127000500
+		trial: 102000100,
+		trialExpired: 102000200,
+		active: 102000300,
+		nonPayment: 102000400
 	},
-	sessStatus: {
-		none: 0,
-		invalid: 123000200,
-		valid: 123000100
-	},
-	sessType: {
-		standard: 124000100,
-		anonymous: 124000300
-	},
-	billingIntervalType: {
-		none: 0,
-		annual: 165000200,
-		annualInvoiced: 165000300,
-		monthly: 165000100
+	billingIntervalType:
+	{   none: 0,
+		monthly: 103000100,
+		annual: 103000200
 	},
 	sessionStatus: {
-		pending: 0,
-		open: 166000100,
-		closed: 166000200
+		none: 0,
+        pending: 104000100,
+		open: 104000200,
+        closed: 104000300
+    },
+	userType: {
+		none: 0,
+		accountManager: 105000100,
+		regular: 105000200
+	},
+    reportType: {
+	    none: 0,
+        chat: 109000100,
+        chat_stars: 109000200,
+        whiteboard: 109000300,
+        vote: 109000400,
+        stats: 109000500
+    },
+	userRole: {
+		none: 0,
+		facilitator: 106000100,
+		observer: 106000200,
+		participant: 106000300
+    },
+	userStatus: {
+		none: 0,
+		active: 107000100,
+		inactive: 107000200
+	},
+	resourceType: {
+		none: 0,
+		image: 108000100,
+		audio: 108000200,
+		video: 108000300,
+		document: 108000400
+	},
+	topicStatus: {
+		none: 0,
+		active: 110000100,
+		inactive: 110000200
 	}
 }
 
